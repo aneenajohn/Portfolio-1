@@ -9,6 +9,7 @@ body {
 :root{
     --primary-color:#93ee90;
     --font-color: #0c5477;
+    --ow-color:#E5E5E5;
 }
 .margin-md{
     margin:1rem;
@@ -52,6 +53,7 @@ body {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+    font-size: large;
 }
 /**navigation**/
 .navigation {
@@ -61,10 +63,12 @@ body {
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-brand {
+.navigation .nav-pills .left{
+    text-align: left;
     font-size: 1.1rem;
     font-weight: bold;
 }
+
 
 .navigation .link {
     color: #0c5477;
@@ -76,6 +80,8 @@ body {
 
 .navigation .nav-pills {
     text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 /**header**/
@@ -97,7 +103,52 @@ body {
 }
 
 .hero .hero-heading .heading-inverted {
+    font-weight: bolder;
     color: var(--primary-color);
+}
+/**tech skills**/
+.ow .tech-heading
+{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--font-color);
+}
+
+
+.content{
+    text-align:center;
+    padding-right: 3rem;
+}
+
+.column {
+   float: left;
+   width: 22%;
+   padding: 30px;
+ }
+ 
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+  
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+ @media screen and (max-width:200px) {
+   .column {
+     width: 50%;
+   }
+ }
+
+.dev-img {
+   max-width: 200px;
+   display: block;
+   margin: auto;
+}
+.ow p{
+    font-weight: bold;
 }
 
 /* project */
@@ -107,6 +158,7 @@ body {
 }
 .project .project-heading {
     text-align: left;
+    font-weight:bolder;
     color: var(--font-color);
     padding-top: 1rem;
 }
@@ -121,6 +173,7 @@ body {
 {
     text-align: left;
     padding-top: 1rem;
+    color: var(--font-color);
 }
 .ow .project-img {
     max-width: 450px;
@@ -138,44 +191,12 @@ body {
 }
 
 .ow {
-    background-color: var(--primary-color);
+    background-color: var(--ow-color);
     color: var(--font-color);
 }
 
 
-/**pattern**/
-.content{
-     text-align:center;
-     padding-right: 3rem;
-}
 
-.column {
-    float: left;
-    width: 22%;
-    padding: 30px;
-  }
-  
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-   
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width:200px) {
-    .column {
-      width: 50%;
-    }
-  }
-
- .dev-img {
-    max-width: 200px;
-    display: block;
-    margin: auto;
-}
 
   
 
@@ -188,8 +209,9 @@ body {
     background-color: var(--primary-color);
     padding: 2rem;
     text-align:center;
-    color:white;
+    color:var(--font-color);
     border-top-right-radius: 1rem;
+    font-weight:bolder;
 }
 
 .footer .link{
