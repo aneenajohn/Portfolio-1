@@ -150,6 +150,10 @@ body {
 .ow p{
     font-weight: bold;
 }
+.ow .heading-inverted{
+    font-weight: bolder;
+ color:var(--primary-color)
+}
 
 /* project */
 
