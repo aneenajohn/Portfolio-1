@@ -163,10 +163,12 @@ body {
     padding-top: 1rem;
 }
 .project .project-img {
-    max-width: 450px;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
+
+
 
 /* blog */
 .ow .project-heading
@@ -176,9 +178,17 @@ body {
     color: var(--font-color);
 }
 .ow .project-img {
-    max-width: 450px;
+    padding-top: 1rem;
+    max-width: 320px;
     display: block;
     margin: auto;
+    padding-right: 45px;
+}
+
+.ow .column1{
+    float: left;
+    width: 42%;
+    padding-left: 48px;
 }
 
 /**section**/
@@ -225,4 +235,8 @@ body {
 .footer .footer-header{
     font-weight:bold;
     font-size:large;
+}
+
+.project-white{
+    color:var(--font-color);
 }
