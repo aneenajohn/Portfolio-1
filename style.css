@@ -240,3 +240,19 @@ body {
 .project-white{
     color:var(--font-color);
 }
+
+/* blog page */
+.hero-sub-heading{
+    color:var(--font-color);
+}
+
+.ow .proj-header{
+    padding:none;
+    text-align: left;
+    max-width: 400px;
+}
+
+
+.proj{
+    padding:0.5rem;
+}
