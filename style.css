@@ -87,7 +87,7 @@ body {
 /**header**/
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .hero .hero-image {
@@ -147,8 +147,12 @@ body {
    display: block;
    margin: auto;
 }
-.ow p{
-    font-weight: bold;
+.ow {
+    padding-top:1rem;
+}
+.white{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 .ow .heading-inverted{
     font-weight: bolder;
