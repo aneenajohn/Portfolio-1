@@ -109,7 +109,7 @@ nav ul li{
 .hero .hero-heading {
     text-align: center;
     color: var(--font-color);
-    padding-top: 1rem;
+    /* padding-top: 0.5rem; */
 }
 
 .hero .hero-heading .heading-inverted {
